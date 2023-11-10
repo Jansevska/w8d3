@@ -127,13 +127,13 @@ in to TypeScript
 //     console.log(param2)
 // }
 
-let colors:string[] = ['red', 'orange', 'yellow', 'green', 'blue']
+// let colors:string[] = ['red', 'orange', 'yellow', 'green', 'blue']
 
-function getEvenIndices(_:string, index:number){
-    return index %2 === 0
-}
+// function getEvenIndices(_:string, index:number){
+//     return index %2 === 0
+// }
 
-colors.filter(getEvenIndices);
+// colors.filter(getEvenIndices);
 
 /*
 strictNullChecks
@@ -233,9 +233,9 @@ To TS our JS parameters are of any type, so this passes the type check
 */
 
 
-// import {squareFootageJD} from './area-js-doc';
-// // squareFootageJD();
-// squareFootageJD(2,3);
+import {squareFootageJD} from './area-js-doc';
+// squareFootageJD();
+squareFootageJD(2,3);
 
 
 /*
